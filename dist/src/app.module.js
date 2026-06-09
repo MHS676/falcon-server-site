@@ -15,6 +15,7 @@ const database_module_1 = require("./database/database.module");
 const contacts_module_1 = require("./modules/contacts/contacts.module");
 const services_module_1 = require("./modules/services/services.module");
 const news_module_1 = require("./modules/news/news.module");
+const seed_module_1 = require("./modules/seed/seed.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -29,6 +30,7 @@ exports.AppModule = AppModule = __decorate([
             contacts_module_1.ContactsModule,
             services_module_1.ServicesModule,
             news_module_1.NewsModule,
+            seed_module_1.SeedModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

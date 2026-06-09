@@ -5,52 +5,52 @@ export declare class NewsService {
     constructor(prisma: PrismaService);
     create(createNewsDto: CreateNewsDto): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         category: string | null;
-        content: string;
+        createdAt: Date;
+        updatedAt: Date;
         image: string | null;
+        content: string;
         published: boolean;
     }>;
     findAll(published?: boolean): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         category: string | null;
-        content: string;
+        createdAt: Date;
+        updatedAt: Date;
         image: string | null;
+        content: string;
         published: boolean;
     }[]>;
     findOne(id: string): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         category: string | null;
-        content: string;
+        createdAt: Date;
+        updatedAt: Date;
         image: string | null;
+        content: string;
         published: boolean;
     } | null>;
     update(id: string, updateNewsDto: CreateNewsDto): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         category: string | null;
-        content: string;
+        createdAt: Date;
+        updatedAt: Date;
         image: string | null;
+        content: string;
         published: boolean;
     }>;
     delete(id: string): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         category: string | null;
-        content: string;
+        createdAt: Date;
+        updatedAt: Date;
         image: string | null;
+        content: string;
         published: boolean;
     }>;
 }

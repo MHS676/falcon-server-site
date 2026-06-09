@@ -6,6 +6,9 @@ import { DatabaseModule } from './database/database.module';
 import { ContactsModule } from './modules/contacts/contacts.module';
 import { ServicesModule } from './modules/services/services.module';
 import { NewsModule } from './modules/news/news.module';
+import { SeedModule } from './modules/seed/seed.module';
+import { AdminAuthModule } from './modules/admin-auth/admin-auth.module';
+import { ContentManagementModule } from './modules/content-management/content-management.module';
 
 @Module({
   imports: [
@@ -17,6 +20,9 @@ import { NewsModule } from './modules/news/news.module';
     ContactsModule,
     ServicesModule,
     NewsModule,
+    SeedModule,
+    AdminAuthModule,
+    ContentManagementModule,
   ],
   controllers: [AppController],
   providers: [AppService],

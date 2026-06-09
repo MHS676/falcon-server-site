@@ -5,47 +5,47 @@ export declare class ServicesService {
     constructor(prisma: PrismaService);
     create(createServiceDto: CreateServiceDto): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         description: string | null;
         icon: string | null;
         category: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     findAll(): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         description: string | null;
         icon: string | null;
         category: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     }[]>;
     findOne(id: string): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         description: string | null;
         icon: string | null;
         category: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     } | null>;
     update(id: string, updateServiceDto: CreateServiceDto): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         description: string | null;
         icon: string | null;
         category: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     delete(id: string): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         title: string;
         description: string | null;
         icon: string | null;
         category: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
 }

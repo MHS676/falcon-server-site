@@ -5,38 +5,38 @@ export declare class ContactsController {
     constructor(contactsService: ContactsService);
     create(createContactDto: CreateContactDto): Promise<{
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         name: string;
-        email: string;
         phone: string | null;
+        email: string;
         subject: string;
         message: string;
         status: string;
-        createdAt: Date;
-        updatedAt: Date;
         userId: string | null;
     }>;
     findAll(): Promise<{
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         name: string;
-        email: string;
         phone: string | null;
+        email: string;
         subject: string;
         message: string;
         status: string;
-        createdAt: Date;
-        updatedAt: Date;
         userId: string | null;
     }[]>;
     findOne(id: string): Promise<{
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         name: string;
-        email: string;
         phone: string | null;
+        email: string;
         subject: string;
         message: string;
         status: string;
-        createdAt: Date;
-        updatedAt: Date;
         userId: string | null;
     } | null>;
 }
