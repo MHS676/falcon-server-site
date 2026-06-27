@@ -173,7 +173,7 @@ async function main() {
         data: {
             tagline: "Security Systems Consultancy, Planning & Services",
             description: "FALCON is a leading security systems company providing comprehensive security solutions.",
-            founded: 2001,
+            founded: 1994,
             employees: "500+",
             coverage: "Bangladesh & Regions",
             specializations: [
