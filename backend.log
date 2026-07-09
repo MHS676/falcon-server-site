@@ -1,0 +1,72 @@
+
+> backend@0.0.1 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m1:52:53 PM[0m] Starting compilation in watch mode...
+
+[[90m1:52:54 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mContactsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mServicesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPillarsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mContentManagementModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAdminAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mContactsController {/contacts}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/contacts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/contacts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/contacts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mServicesController {/services}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/services, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/services, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/services/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/services/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/services/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsController {/news}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/news, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/news, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/news/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/news/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/news/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSeedController {/seed}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/seed/data, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAdminAuthController {/api/admin}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/verify-token, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mContentManagementController {/api/admin/content}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/home-banner, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/physical-security, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/electronic-security, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/central-monitoring, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/security-consulting, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/home-banner, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/physical-security, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/electronic-security, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/central-monitoring, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/admin/content/security-consulting, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPillarsController {/api/pillars}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars/upload, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:52:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pillars/reorder, POST} route[39m[38;5;3m +0ms[39m
+[33m[Nest] 13470  - [39m07/08/2026, 1:53:00 PM [33m   WARN[39m [38;5;3m[PrismaService] [39m[33m⚠️ Failed to connect to database: Can't reach database server at `147.93.107.217:5436`
+
+Please make sure your database server is running at `147.93.107.217:5436`.
+Backend will start but database operations will fail.
+Please configure DATABASE_URL to point to a running PostgreSQL server.[39m
+[32m[Nest] 13470  - [39m07/08/2026, 1:53:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+Backend server running on http://localhost:3000

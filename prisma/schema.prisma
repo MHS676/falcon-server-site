@@ -8,6 +8,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 // User Model
@@ -70,6 +71,18 @@ model CompanyInfo {
   email     String?
   address   String?
   data      Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Pillars/Values Model for Life at FALCON
+model Pillar {
+  id        String   @id @default(cuid())
+  title     String
+  description String
+  icon      String?   // Icon name or emoji
+  image     String?   // Image path/URL
+  order     Int       @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }

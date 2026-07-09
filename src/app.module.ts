@@ -9,6 +9,7 @@ import { NewsModule } from './modules/news/news.module';
 import { SeedModule } from './modules/seed/seed.module';
 import { AdminAuthModule } from './modules/admin-auth/admin-auth.module';
 import { ContentManagementModule } from './modules/content-management/content-management.module';
+import { PillarsModule } from './modules/pillars/pillars.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { ContentManagementModule } from './modules/content-management/content-ma
     SeedModule,
     AdminAuthModule,
     ContentManagementModule,
+    PillarsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
