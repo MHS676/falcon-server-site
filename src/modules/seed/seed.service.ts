@@ -197,7 +197,7 @@ export class SeedService {
     await this.prisma.companyInfo.create({
       data: {
         name: 'FALCON Security',
-        phone: '+880-2-9619919',
+        phone: '+8801618325266',
         email: 'falconslimited@gmail.com',
         address: 'FALCON Security Headquarters, Dhaka, Bangladesh',
         data: {

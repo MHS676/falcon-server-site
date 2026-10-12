@@ -167,7 +167,7 @@ async function main() {
     console.log(`✓ Created ${createdNews.length} news articles`);
     const companyInfo = {
         name: "FALCON Security",
-        phone: "+880-2-9619919",
+        phone: "+8801618325266",
         email: "falconslimited@gmail.com",
         address: "FALCON Security Headquarters, Dhaka, Bangladesh",
         data: {
