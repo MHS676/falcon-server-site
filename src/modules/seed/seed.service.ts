@@ -198,7 +198,7 @@ export class SeedService {
       data: {
         name: 'FALCON Security',
         phone: '+880-2-9619919',
-        email: 'info@falconsecurity.bd',
+        email: 'falconslimited@gmail.com',
         address: 'FALCON Security Headquarters, Dhaka, Bangladesh',
         data: {
           tagline: 'Security Systems Consultancy, Planning & Services',
